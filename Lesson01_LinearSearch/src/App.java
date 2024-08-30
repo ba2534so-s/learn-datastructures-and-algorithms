@@ -8,6 +8,8 @@ public class App {
 
         if (result != -1) {
             System.out.println("Element found at Index: " + result);
+        } else {
+            System.out.println("Element was not found");
         }
 
     }
