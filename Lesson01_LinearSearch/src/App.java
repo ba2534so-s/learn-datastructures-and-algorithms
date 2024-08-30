@@ -6,7 +6,9 @@ public class App {
 
         int result = linearSearch(sortedArray, target);
 
-        System.out.println("Element found at Index: " + result);
+        if (result != -1) {
+            System.out.println("Element found at Index: " + result);
+        }
 
     }
 
