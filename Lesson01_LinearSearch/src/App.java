@@ -7,4 +7,8 @@ public class App {
         int result = linearSearch(sortedArray, target);
 
     }
+
+    public int linearSearch(int[] sortedNumbers, int target_numbert) {
+        
+    } 
 }
