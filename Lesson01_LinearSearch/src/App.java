@@ -15,6 +15,11 @@ public class App {
     }
 
     public static int linearSearch(int[] sortedNumbers, int target_numbert) {
+        
+        for (int i = 0; i < sortedNumbers.length; i++) {
+            
+        }
+
         return -1;
     } 
 }
