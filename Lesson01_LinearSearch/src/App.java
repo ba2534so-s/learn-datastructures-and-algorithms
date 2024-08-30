@@ -10,7 +10,7 @@ public class App {
 
     }
 
-    public int linearSearch(int[] sortedNumbers, int target_numbert) {
+    public static int linearSearch(int[] sortedNumbers, int target_numbert) {
         return -1;
     } 
 }
