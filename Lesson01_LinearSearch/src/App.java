@@ -6,9 +6,11 @@ public class App {
 
         int result = linearSearch(sortedArray, target);
 
+        System.out.println("Element found at Index: " + result);
+
     }
 
     public int linearSearch(int[] sortedNumbers, int target_numbert) {
-        
+        return -1;
     } 
 }
