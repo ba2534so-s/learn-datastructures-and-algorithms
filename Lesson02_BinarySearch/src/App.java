@@ -22,7 +22,9 @@ public class App {
 
             if (sortedNumbers[mid] == targetNumber) {
                 return mid;
-            }
+            } else if (sortedNumbers[mid] > targetNumber) {
+                right = mid;
+            } 
         }
 
         return -1;
