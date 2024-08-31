@@ -5,6 +5,6 @@ public class App {
 
 
     public static int binarySearch(int[] sortedNumbers, int targetNumber) {
-        
+        return -1;
     }
 }
