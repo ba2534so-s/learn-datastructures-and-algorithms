@@ -20,6 +20,9 @@ public class App {
         while (left <= right) {
             int mid = (left + right) / 2;
 
+            if (sortedNumbers[mid] == targetNumber) {
+                return mid;
+            }
         }
 
         return -1;
