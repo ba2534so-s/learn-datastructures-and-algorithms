@@ -17,6 +17,9 @@ public class App {
         int left = 0;
         int right = sortedNumbers.length - 1;
 
+        while (left <= right) {
+            
+        }
 
         return -1;
     }
