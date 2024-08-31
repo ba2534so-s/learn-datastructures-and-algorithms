@@ -4,6 +4,10 @@ public class App {
         int target = 14;
 
         int result = binarySearch(sortedArray, target);
+
+        if (result != -1) {
+            System.out.println("Element found at Index: " + result);
+        }
     }
 
 
