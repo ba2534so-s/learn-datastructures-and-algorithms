@@ -26,7 +26,7 @@ replay_pid*
 
 ### VisualStudioCode ###
 .vscode/*
-.vscode/settings.json
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -44,4 +44,4 @@ replay_pid*
 .ionide
 
 
-settings.json
+**/.vscode/*
