@@ -15,7 +15,8 @@ public class App {
 
     public static int binarySearch(int[] sortedNumbers, int targetNumber) {
         int left = 0;
-        
+        int right = sortedNumbers.length - 1;
+
 
         return -1;
     }
