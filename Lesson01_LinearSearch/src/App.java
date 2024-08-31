@@ -14,10 +14,10 @@ public class App {
 
     }
 
-    public static int linearSearch(int[] sortedNumbers, int target_number) {
+    public static int linearSearch(int[] sortedNumbers, int targetNumber) {
         
         for (int i = 0; i < sortedNumbers.length; i++) {
-            if (sortedNumbers[i] == target_number) {
+            if (sortedNumbers[i] == targetNumber) {
                 return i;
             }
         }
