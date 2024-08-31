@@ -23,9 +23,9 @@ public class App {
             if (sortedNumbers[mid] == targetNumber) {
                 return mid;
             } else if (sortedNumbers[mid] > targetNumber) {
-                right = mid;
+                right = mid + 1;
             } else {
-                left = mid;
+                left = mid + 1;
             }
         }
 
