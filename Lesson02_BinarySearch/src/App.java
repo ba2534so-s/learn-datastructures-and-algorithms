@@ -2,6 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         int[] sortedArray = {4, 7, 9, 14, 19};
         int target = 14;
+
+        int result = binarySearch(sortedArray, target);
     }
 
 
