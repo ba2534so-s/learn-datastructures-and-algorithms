@@ -12,6 +12,9 @@ public class App {
         }
     }
 
+    public static binarySearchRecursive(int[] sortedArray, int targetNumber, int left, int right) {
+        
+    }
 
     public static int binarySearch(int[] sortedNumbers, int targetNumber) {
         int left = 0;
