@@ -30,6 +30,7 @@ public class App {
             }
             temp = unsorted[i];
             unsorted[i] = unsorted[smallestIndex];
+            unsorted[smallestIndex] = temp;
         }
     }
 }
