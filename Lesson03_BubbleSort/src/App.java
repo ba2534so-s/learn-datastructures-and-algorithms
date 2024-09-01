@@ -25,6 +25,7 @@ public class App {
                 if (unsorted[j] > unsorted[j+1]) {
                     int temp = unsorted[j];
                     unsorted[j] = unsorted[j+1];
+                    unsorted[j+1] = temp;
                 }
             }
 
