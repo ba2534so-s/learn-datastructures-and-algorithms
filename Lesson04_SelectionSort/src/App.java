@@ -16,4 +16,8 @@ public class App {
         }
         System.out.println();
     }
+
+    public static void selectionSort(int[] unsorted) {
+        
+    }
 }
