@@ -23,7 +23,7 @@ public class App {
         for (int i = 0; i < lastIndex - 1; i++) {
             smallestIndex = i;
             for (int j = i; j < lastIndex - i; j++) {
-                if (unsorted[j] > unsorted[smallestIndex]) {
+                if (unsorted[j] < unsorted[smallestIndex]) {
                     smallestIndex = j;
                 }
             }
