@@ -18,15 +18,16 @@ public class App {
     }
 
     public static void selectionSort(int[] unsorted) {
-        int largest = -1;
+        int smallestIndex = -1;
         int lastIndex = unsorted.length - 1;
         for (int i = 0; i < lastIndex - 1; i++) {
+            smallestIndex = i;
             for (int j = i; j < lastIndex - i; j++) {
-                if (unsorted[j] > unsorted[largest]) {
-                    largest = j;
+                if (unsorted[j] > unsorted[smallestIndex]) {
+                    smallestIndex = j;
                 }
             }
-            unsorted[lastIndex - i] = unsorted[largest];
+            
         }
     }
 }
