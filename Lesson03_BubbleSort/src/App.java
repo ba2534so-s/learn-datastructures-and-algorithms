@@ -9,9 +9,10 @@ public class App {
         }
         System.out.println();
 
+        int[] sortedNumbers = bubbleSort(numbers);
 
         System.out.print("After Sorting: ");
-        for (int n : numbers) {
+        for (int n : sortedNumbers) {
             System.out.print(n + " ");
         }
         System.out.println();
