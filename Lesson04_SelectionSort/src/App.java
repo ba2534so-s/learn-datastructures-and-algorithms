@@ -18,9 +18,12 @@ public class App {
     }
 
     public static void selectionSort(int[] unsorted) {
+        int largest = -1;
         for (int i = 0; i < unsorted.length - 1; i++) {
             for (int j = i; j < unsorted.length; j++) {
-                
+                if (unsorted[j] > unsorted[largest]) {
+                    largest = j;
+                }
             }
         }
     }
