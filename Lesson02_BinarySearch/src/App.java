@@ -16,7 +16,9 @@ public class App {
         if (left <= right) {
             int mid = (left + right) / 2;
             
-          
+            if (sortedArray[mid] == targetNumber) {
+                return mid;
+            
         }
 
         return -1;
