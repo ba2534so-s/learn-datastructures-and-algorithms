@@ -18,6 +18,7 @@ public class App {
     }
 
     public static void selectionSort(int[] unsorted) {
+        int temp = 0;
         int smallestIndex = -1;
         int lastIndex = unsorted.length - 1;
         for (int i = 0; i < lastIndex - 1; i++) {
@@ -27,6 +28,7 @@ public class App {
                     smallestIndex = j;
                 }
             }
+            temp = unsorted[i];
             
         }
     }
