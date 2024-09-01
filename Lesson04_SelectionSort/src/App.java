@@ -20,10 +20,10 @@ public class App {
     public static void selectionSort(int[] unsorted) {
         int temp = 0;
         int smallestIndex = -1;
-        int lastIndex = unsorted.length - 1;
+        int lastIndex = unsorted.length;
         for (int i = 0; i < lastIndex - 1; i++) {
             smallestIndex = i;
-            for (int j = i + 1; j < lastIndex - i; j++) {
+            for (int j = i + 1; j < lastIndex; j++) {
                 if (unsorted[j] < unsorted[smallestIndex]) {
                     smallestIndex = j;
                 }
