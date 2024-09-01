@@ -19,12 +19,14 @@ public class App {
 
     public static void selectionSort(int[] unsorted) {
         int largest = -1;
-        for (int i = 0; i < unsorted.length - 1; i++) {
-            for (int j = i; j < unsorted.length; j++) {
+        int lastIndex = unsorted.length - 1;
+        for (int i = 0; i < lastIndex - 1; i++) {
+            for (int j = i; j < lastIndex - i; j++) {
                 if (unsorted[j] > unsorted[largest]) {
                     largest = j;
                 }
             }
+            unsorted[lastIndex - i] = unsorted[largest];
         }
     }
 }
