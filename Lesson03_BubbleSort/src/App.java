@@ -28,7 +28,7 @@ public class App {
                     unsorted[j+1] = temp;
                 }
             }
-
         }
+        return unsorted;
     }
 }
