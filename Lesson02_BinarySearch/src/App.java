@@ -12,6 +12,22 @@ public class App {
         }
     }
 
+    public static int binarySearchRecursive(int[] sortedArray, int targetNumber, int left, int right) {
+        if (left <= right) {
+            int mid = (left + right) / 2;
+            
+            if (sortedArray[mid] == targetNumber) {
+                return mid;
+            } else if (sortedArray[mid] < targetNumber) {
+                return binarySearchRecursive(sortedArray, targetNumber, mid+1, right);
+            } else {
+                return binarySearchRecursive(sortedArray, targetNumber, left, mid-1);
+            }
+        }
+
+        return -1;
+
+    }
 
     public static int binarySearch(int[] sortedNumbers, int targetNumber) {
         int left = 0;
