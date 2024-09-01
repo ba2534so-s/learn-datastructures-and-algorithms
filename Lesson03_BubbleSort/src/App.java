@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) {
         
-        int[] numbers = {6, 5, 2, 8, 9, 4};
+        int[] numbers = {6, 5, 2, 8, 9, 4, 1};
 
         System.out.print("Before Sorting: ");
         for (int n : numbers) {
@@ -9,19 +9,19 @@ public class App {
         }
         System.out.println();
 
-        int[] sortedNumbers = bubbleSort(numbers);
+        bubbleSort(numbers);
 
         System.out.print("After Sorting: ");
-        for (int n : sortedNumbers) {
+        for (int n : numbers) {
             System.out.print(n + " ");
         }
         System.out.println();
 
     }
 
-    public static int[] bubbleSort(int[] unsorted) {
+    public static void bubbleSort(int[] unsorted) {
         for(int i = 0; i < unsorted.length - 1; i++) {
-            for(int j = 0; j < unsorted.length - i - 1; i++) {
+            for(int j = 0; j < unsorted.length - i - 1; j++) {
                 if (unsorted[j] > unsorted[j+1]) {
                     int temp = unsorted[j];
                     unsorted[j] = unsorted[j+1];
@@ -29,6 +29,5 @@ public class App {
                 }
             }
         }
-        return unsorted;
     }
 }
