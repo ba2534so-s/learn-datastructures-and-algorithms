@@ -18,7 +18,11 @@ public class App {
             
             if (sortedArray[mid] == targetNumber) {
                 return mid;
-            
+            } else if (sortedArray[mid] < targetNumber) {
+                return binarySearchRecursive(sortedArray, targetNumber, mid+1, right);
+            } else {
+                return binarySearchRecursive(sortedArray, targetNumber, left, mid-1);
+            }
         }
 
         return -1;
