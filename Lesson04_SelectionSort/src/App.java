@@ -18,6 +18,8 @@ public class App {
     }
 
     public static void selectionSort(int[] unsorted) {
-        
+        for (int i = 0; i < unsorted.length - 1; i++){
+            
+        }
     }
 }
