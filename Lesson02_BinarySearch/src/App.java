@@ -13,7 +13,10 @@ public class App {
     }
 
     public static binarySearchRecursive(int[] sortedArray, int targetNumber, int left, int right) {
-        
+        if (left <= right) {
+            int mid = (left + right) / 2;
+        }
+
     }
 
     public static int binarySearch(int[] sortedNumbers, int targetNumber) {
