@@ -22,7 +22,7 @@ public class App {
         int lastIndex = unsorted.length - 1;
         for (int i = 0; i < lastIndex - 1; i++) {
             smallestIndex = i;
-            for (int j = i; j < lastIndex - i; j++) {
+            for (int j = i + 1; j < lastIndex - i; j++) {
                 if (unsorted[j] < unsorted[smallestIndex]) {
                     smallestIndex = j;
                 }
