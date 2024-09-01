@@ -24,7 +24,7 @@ public class App {
             for(int j = 0; j < unsorted.length - 1; i++) {
                 if (unsorted[j] > unsorted[j+1]) {
                     int temp = unsorted[j];
-                    
+                    unsorted[j] = unsorted[j+1];
                 }
             }
 
