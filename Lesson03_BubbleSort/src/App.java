@@ -21,7 +21,9 @@ public class App {
 
     public static int[] bubbleSort(int[] unsorted) {
         for(int i = 0; i < unsorted.length - 1; i++) {
-            
+            for(int j = 0; j < unsorted.length - 1; i++) {
+                
+            }
 
         }
     }
