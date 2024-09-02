@@ -19,8 +19,12 @@ public class App {
 
     public static void quickSort(int[] unsorted, int low, int high) {
         if (low < high) {
-            
+
         }
+    }
+
+    private static int partition(int[] arr, int low, int high) {
+
     }
 
 }
