@@ -38,6 +38,7 @@ public class App {
                 arr[j] = temp;
             }
         }
+        int temp = arr[i+1];
     }
 
 }
