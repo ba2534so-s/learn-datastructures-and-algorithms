@@ -17,20 +17,20 @@ public class App {
         System.out.println();
     }
 
-    public static void quickSort(int[] unsorted, int low, int high) {
-        if (low < high) {
-            int pivot = partition(unsorted, low, high);
+    public static void quickSort(int[] unsorted, int start, int end) {
+        if (start < end) {
+            int pivot = partition(unsorted, start, end);
 
-            quickSort(unsorted, low, pivot-1);
-            quickSort(unsorted, pivot+1, high);
+            quickSort(unsorted, start, pivot-1);
+            quickSort(unsorted, pivot+1, end);
         }
     }
 
-    private static int partition(int[] arr, int low, int high) {
-        int pivot = arr[high];
-        int i = low - 1;
+    private static int partition(int[] arr, int start, int end) {
+        int pivot = arr[end];
+        int i = start - 1;
 
-        for (int j = low; j < high; j++) {
+        for (int j = start; j < end; j++) {
             if (arr[j] < pivot) {
                 i++;
                 int temp = arr[i];
@@ -39,8 +39,10 @@ public class App {
             }
         }
         int temp = arr[i+1];
-        arr[i+1] = arr[high];
-        arr[high] = temp;
+        arr[i+1] = arr[end];
+        arr[end] = temp;
+
+        return i+1;
     }
 
 }
