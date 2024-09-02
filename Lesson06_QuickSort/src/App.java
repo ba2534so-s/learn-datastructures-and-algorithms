@@ -34,6 +34,7 @@ public class App {
             if (arr[j] < pivot) {
                 i++;
                 int temp = arr[i];
+                arr[i] = arr[j];
             }
         }
     }
