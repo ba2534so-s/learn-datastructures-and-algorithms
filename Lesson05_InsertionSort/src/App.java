@@ -28,6 +28,8 @@ public class App {
                 unsorted[j+1] = unsorted[j];
                 j--;
             }
+            unsorted[j+1] = temp;
+
         }
     }
 }
