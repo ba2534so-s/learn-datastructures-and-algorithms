@@ -20,7 +20,7 @@ public class App {
     public static void mergeSort(int[] arr, int start, int end) {
 
         while (start < end) {
-            
+            int mid = (start + end) / 2;
         }
 
     }
