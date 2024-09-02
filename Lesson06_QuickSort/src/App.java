@@ -32,6 +32,7 @@ public class App {
 
         for (int j = low; j < high; j++) {
             if (arr[j] < pivot) {
+                i++;
                 
             }
         }
