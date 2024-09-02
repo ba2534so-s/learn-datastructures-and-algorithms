@@ -39,6 +39,7 @@ public class App {
             }
         }
         int temp = arr[i+1];
+        arr[i+1] = arr[high];
     }
 
 }
