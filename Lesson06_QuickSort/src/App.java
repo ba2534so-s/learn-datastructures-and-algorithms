@@ -8,6 +8,7 @@ public class App {
         }
         System.out.println();
 
+        quickSort(numbers);
 
         System.out.print("After Sorting: ");
         for (int n : numbers) {
