@@ -21,6 +21,8 @@ public class App {
 
         while (start < end) {
             int mid = (start + end) / 2;
+            mergeSort(arr, start, mid);
+            
         }
 
     }
