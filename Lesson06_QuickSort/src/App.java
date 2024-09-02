@@ -19,7 +19,7 @@ public class App {
 
     public static void quickSort(int[] unsorted, int low, int high) {
         if (low < high) {
-
+            int pivot = partition(unsorted, low, high);
         }
     }
 
