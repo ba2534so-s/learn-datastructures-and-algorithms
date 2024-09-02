@@ -24,7 +24,7 @@ public class App {
             mergeSort(arr, start, mid);
             mergeSort(arr, mid+1, end);
 
-            merge();
+            merge(arr, start, mid, end);
         }
 
     }
