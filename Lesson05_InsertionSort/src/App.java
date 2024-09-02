@@ -24,7 +24,9 @@ public class App {
         for(int i = 1; i < unsorted.length; i++) {
             temp = unsorted[i];
             j = i - 1;
-            
+            while (j <= 0 && temp > unsorted[j]) {
+                
+            }
         }
     }
 }
