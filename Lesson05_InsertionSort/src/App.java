@@ -26,6 +26,7 @@ public class App {
             j = i - 1;
             while (j >= 0 && temp < unsorted[j]) {
                 unsorted[j+1] = unsorted[j];
+                j--;
             }
         }
     }
