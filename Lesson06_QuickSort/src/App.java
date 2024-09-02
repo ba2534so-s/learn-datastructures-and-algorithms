@@ -22,6 +22,7 @@ public class App {
             int pivot = partition(unsorted, low, high);
 
             quickSort(unsorted, low, pivot-1);
+            quickSort(unsorted, pivot+1, high);
         }
     }
 
