@@ -23,6 +23,8 @@ public class App {
             int mid = (start + end) / 2;
             mergeSort(arr, start, mid);
             mergeSort(arr, mid, end);
+
+            merge();
         }
 
     }
