@@ -19,10 +19,11 @@ public class App {
 
     public static void insertionSort(int[] unsorted) {
         int temp = 0;
+        int j = 0;
 
         for(int i = 1; i < unsorted.length; i++) {
             temp = unsorted[i];
-            
+            j = i - 1;
             
         }
     }
