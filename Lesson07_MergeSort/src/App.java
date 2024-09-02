@@ -8,7 +8,7 @@ public class App {
         }
         System.out.println();
 
-        
+        mergeSort(numbers, 0, numbers.length - 1);
 
         System.out.print("After Sorting: ");
         for (int n : numbers) {
