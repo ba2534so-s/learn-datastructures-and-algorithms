@@ -18,7 +18,9 @@ public class App {
     }
 
     public static void quickSort(int[] unsorted, int low, int high) {
-        
+        if (low < high) {
+            
+        }
     }
 
 }
