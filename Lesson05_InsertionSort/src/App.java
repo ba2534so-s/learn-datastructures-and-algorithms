@@ -21,6 +21,8 @@ public class App {
         int temp = 0;
 
         for(int i = 1; i < unsorted.length; i++) {
+            temp = unsorted[i];
+            
             
         }
     }
