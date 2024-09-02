@@ -18,6 +18,8 @@ public class App {
     }
 
     public static void insertionSort(int[] unsorted) {
+        int temp = 0;
+
         
     }
 }
