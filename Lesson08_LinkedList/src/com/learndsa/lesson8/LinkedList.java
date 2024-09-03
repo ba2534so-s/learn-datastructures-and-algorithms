@@ -67,6 +67,7 @@ public class LinkedList {
             }
             toDelete = n.getNext();
             n.setNext(toDelete.getNext());
+            toDelete = null;
             
 
         }
