@@ -35,7 +35,7 @@ public class LinkedList {
             node.setNext(getHead());
         }
 
-        
+        this.setHead(node);
 
         
     }
