@@ -58,6 +58,7 @@ public class App {
                 i++;
             } else {
                 arr[k] = rightArr[j];
+                j++;
             }
         }
     }
