@@ -58,7 +58,7 @@ public class LinkedList {
 
     public void deleteAt(int index) {
         if (index == 0) {
-            
+            this.setHead(head.getNext());
         }
     }
 
