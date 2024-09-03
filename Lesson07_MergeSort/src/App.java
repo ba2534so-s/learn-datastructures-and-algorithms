@@ -60,6 +60,7 @@ public class App {
                 arr[k] = rightArr[j];
                 j++;
             }
+            k++;
         }
     }
 }
