@@ -53,7 +53,9 @@ public class App {
         int k = start;
 
         while (i < leftSize && j < rightSize) {
-            
+            if (leftArr[i] <= rightArr[j]) {
+                
+            } 
         }
     }
 }
