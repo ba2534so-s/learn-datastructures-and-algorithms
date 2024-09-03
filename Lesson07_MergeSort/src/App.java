@@ -62,5 +62,9 @@ public class App {
             }
             k++;
         }
+
+        while (i < leftSize) {
+            
+        }
     }
 }
