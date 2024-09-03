@@ -36,7 +36,9 @@ public class LinkedList {
         }
 
         this.setHead(node);
+    }
 
+    public void insertAt(int index, int data) {
         
     }
 
