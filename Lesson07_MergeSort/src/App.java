@@ -47,5 +47,8 @@ public class App {
         for (int x = 0; x < rightSize; x++) {
             rightArr[x] = arr[mid+1+x];
         }
+
+        int i = 0;
+
     }
 }
