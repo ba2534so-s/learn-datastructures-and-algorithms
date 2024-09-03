@@ -54,6 +54,7 @@ public class App {
 
         while (i < leftSize && j < rightSize) {
             if (leftArr[i] <= rightArr[j]) {
+                arr[k] = leftArr[i];
                 
             } 
         }
