@@ -31,7 +31,9 @@ public class App {
 
     private static int merge(int[] arr, int start, int mid, int end) {
 
+        // get size of left array
         int leftSize = mid-start+1;
+        // get size of right array
         int rightSize = end - mid;
 
     }
