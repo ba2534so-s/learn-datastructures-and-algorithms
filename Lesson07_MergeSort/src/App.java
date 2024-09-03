@@ -65,6 +65,7 @@ public class App {
 
         while (i < leftSize) {
             arr[k] = leftArr[i];
+            i++;
         }
     }
 }
