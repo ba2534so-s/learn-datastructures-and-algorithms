@@ -60,7 +60,8 @@ public class LinkedList {
         if (index == 0) {
             this.setHead(head.getNext());
         } else {
-            
+            Node n = getHead();
+
         }
     }
 
