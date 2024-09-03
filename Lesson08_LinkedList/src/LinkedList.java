@@ -27,5 +27,8 @@ public class LinkedList {
 
     public void show() {
         Node node = getHead();
+        while (node.getNext() != null) {
+            
+        }
     }
 }
