@@ -47,7 +47,7 @@ public class LinkedList {
             n = n.getNext();
         }
         node.setNext(n.getNext());
-        
+        n.setNext(node);
 
     }
 
