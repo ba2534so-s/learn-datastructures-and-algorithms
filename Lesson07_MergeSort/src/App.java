@@ -37,6 +37,7 @@ public class App {
         int rightSize = end - mid;
 
         // Create left and right arrays
+        int[] leftArr = new int[leftSize];
 
     }
 }
