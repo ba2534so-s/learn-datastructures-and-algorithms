@@ -29,6 +29,8 @@ public class LinkedList {
         Node node = getHead();
         while (node.getNext() != null) {
             System.out.println(node.getData());
+            node = node.getNext();
         }
+        System.out.println(node.getData());
     }
 }
