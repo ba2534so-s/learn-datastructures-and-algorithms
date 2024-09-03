@@ -41,7 +41,7 @@ public class App {
         int[] rightArr = new int[rightSize];
 
         for (int x = 0; x < leftSize; x++) {
-
+            leftArr[x]  = arr[start + x];
         }
     }
 }
