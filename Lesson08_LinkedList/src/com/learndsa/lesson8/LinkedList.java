@@ -30,6 +30,7 @@ public class LinkedList {
     public void insertAtStart(int data) {
         Node node = new Node();
         node.setData(data);
+        node.setNext(null);
         
         if (getHead() != null) {
             node.setNext(getHead());
@@ -41,6 +42,8 @@ public class LinkedList {
     public void insertAt(int index, int data) {
         Node node = new Node();
         node.setData(data);
+
+
 
         Node n = getHead();
         for (int i = 0; i < index-1; i++) {
