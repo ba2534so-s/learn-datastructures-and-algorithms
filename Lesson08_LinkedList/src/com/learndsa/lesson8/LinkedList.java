@@ -46,14 +46,15 @@ public class LinkedList {
 
         if (index == 0) {
             insertAtStart(data);
+        } else {
+            Node n = getHead();
+            for (int i = 0; i < index-1; i++) {
+                n = n.getNext();
+            }
+            node.setNext(n.getNext());
+            n.setNext(node);
         }
-        
-        Node n = getHead();
-        for (int i = 0; i < index-1; i++) {
-            n = n.getNext();
-        }
-        node.setNext(n.getNext());
-        n.setNext(node);
+
 
     }
 
