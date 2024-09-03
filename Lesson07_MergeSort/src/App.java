@@ -57,7 +57,7 @@ public class App {
                 arr[k] = leftArr[i];
                 i++;
             } else {
-                
+                arr[k] = rightArr[j];
             }
         }
     }
