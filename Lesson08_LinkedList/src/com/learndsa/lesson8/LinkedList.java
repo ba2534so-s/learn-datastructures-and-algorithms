@@ -54,8 +54,10 @@ public class LinkedList {
             node.setNext(n.getNext());
             n.setNext(node);
         }
+    }
 
-
+    public void delete(int index) {
+        
     }
 
     public void show() {
