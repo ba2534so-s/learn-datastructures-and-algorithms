@@ -44,8 +44,11 @@ public class LinkedList {
 
         Node n = getHead();
         for (int i = 0; i < index; i++) {
-            
+            n = n.getNext();
         }
+        node.setNext(n.getNext());
+        
+
     }
 
     public void show() {
