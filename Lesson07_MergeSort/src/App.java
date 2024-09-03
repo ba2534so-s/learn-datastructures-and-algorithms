@@ -30,6 +30,9 @@ public class App {
     }
 
     private static int merge(int[] arr, int start, int mid, int end) {
+
+        int leftSize = mid-start+1;
         
+
     }
 }
