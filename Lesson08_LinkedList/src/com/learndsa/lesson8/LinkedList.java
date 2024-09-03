@@ -62,7 +62,7 @@ public class LinkedList {
         } else {
             Node n = getHead();
             for (int i = 0; i < index-1; i++) {
-                
+                n = n.getNext();
             }
 
         }
