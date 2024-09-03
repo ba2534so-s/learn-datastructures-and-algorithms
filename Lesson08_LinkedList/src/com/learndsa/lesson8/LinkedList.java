@@ -28,7 +28,7 @@ public class LinkedList {
     }
 
     public void insertAtStart(int data) {
-        
+        Node node = new Node();
     }
 
     public void show() {
