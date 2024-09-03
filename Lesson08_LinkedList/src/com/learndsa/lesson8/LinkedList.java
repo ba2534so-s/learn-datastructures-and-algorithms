@@ -43,6 +43,9 @@ public class LinkedList {
         node.setData(data);
 
         Node n = getHead();
+        for (int i = 0; i < index; i++) {
+            
+        }
     }
 
     public void show() {
