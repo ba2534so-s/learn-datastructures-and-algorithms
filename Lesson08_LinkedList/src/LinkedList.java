@@ -8,4 +8,8 @@ public class LinkedList {
     public Node getHead() {
         return this.head;
     }
+
+    public void insert(int data) {
+        
+    }
 }
