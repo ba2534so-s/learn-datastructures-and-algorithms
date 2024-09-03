@@ -70,7 +70,7 @@ public class App {
         }
 
         while (j < rightSize) {
-            
+            arr[k] = rightArr[j];
         }
     }
 }
