@@ -17,9 +17,9 @@ public class App {
         System.out.println();
     }
 
-    public static void mergeSort(int[] arr, int start, int end) {
+    private static void mergeSort(int[] arr, int start, int end) {
 
-        while (start < end) {
+        if (start < end) {
             int mid = (start + end) / 2;
             mergeSort(arr, start, mid);
             mergeSort(arr, mid+1, end);
@@ -29,7 +29,7 @@ public class App {
 
     }
 
-    private static int merge(int[] arr, int start, int mid, int end) {
+    private static void merge(int[] arr, int start, int mid, int end) {
 
         // get size of left array
         int leftSize = mid-start+1;
@@ -44,7 +44,7 @@ public class App {
             leftArr[x]  = arr[start + x];
         }
 
-        for (int x = 0; x < rightSize; x++) {
+        for (int x = 0; x < rightSize; x++) {  
             rightArr[x] = arr[mid+1+x];
         }
 
@@ -62,7 +62,7 @@ public class App {
             }
             k++;
         }
-
+        
         while (i < leftSize) {
             arr[k] = leftArr[i];
             i++;
@@ -74,5 +74,6 @@ public class App {
             j++;
             k++;
         }
+        
     }
 }
