@@ -17,6 +17,7 @@ public class LinkedList {
         if (this.head == null) {
             this.head = node;
         } else {
+            Node n = new Node();
 
         }
     }
