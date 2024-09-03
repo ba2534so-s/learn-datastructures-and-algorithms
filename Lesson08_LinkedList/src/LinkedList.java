@@ -21,7 +21,7 @@ public class LinkedList {
             while (n.getNext() != null) {
                 n = n.getNext();
             }
-
+            n.setNext(node);
         }
     }
 }
