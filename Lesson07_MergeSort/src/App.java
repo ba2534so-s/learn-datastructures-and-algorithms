@@ -56,7 +56,9 @@ public class App {
             if (leftArr[i] <= rightArr[j]) {
                 arr[k] = leftArr[i];
                 i++;
-            } 
+            } else {
+                
+            }
         }
     }
 }
