@@ -40,5 +40,8 @@ public class App {
         int[] leftArr = new int[leftSize];
         int[] rightArr = new int[rightSize];
 
+        for (int x = 0; x < leftSize; x++) {
+
+        }
     }
 }
