@@ -13,6 +13,8 @@ public class LinkedList {
         Node node = new Node();
         node.setData(data);
 
-        
+        if (this.head == null) {
+
+        }
     }
 }
