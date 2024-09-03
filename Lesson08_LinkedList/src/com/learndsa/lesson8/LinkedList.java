@@ -27,6 +27,10 @@ public class LinkedList {
         }
     }
 
+    public void insertAtStart(int data) {
+        
+    }
+
     public void show() {
         Node node = getHead();
         while (node.getNext() != null) {
