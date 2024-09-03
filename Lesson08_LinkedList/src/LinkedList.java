@@ -24,4 +24,8 @@ public class LinkedList {
             n.setNext(node);
         }
     }
+
+    public void show() {
+        
+    }
 }
