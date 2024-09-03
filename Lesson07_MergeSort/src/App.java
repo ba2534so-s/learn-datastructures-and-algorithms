@@ -68,5 +68,9 @@ public class App {
             i++;
             k++;
         }
+
+        while (j < rightSize) {
+            
+        }
     }
 }
