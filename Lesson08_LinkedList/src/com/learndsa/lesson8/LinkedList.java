@@ -57,7 +57,7 @@ public class LinkedList {
     }
 
     public void deleteAt(int index) {
-        for (int i = 0; i < index; i++) {
+        if (index == 0) {
             
         }
     }
