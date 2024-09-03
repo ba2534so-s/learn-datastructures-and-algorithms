@@ -19,7 +19,7 @@ public class LinkedList {
         } else {
             Node n = this.getHead();
             while (n.getNext() != null) {
-
+                n = n.getNext();
             }
 
         }
