@@ -46,15 +46,31 @@ public class LinkedList {
 
         if (index == 0) {
             insertAtStart(data);
+        } else {
+            Node n = getHead();
+            for (int i = 0; i < index-1; i++) {
+                n = n.getNext();
+            }
+            node.setNext(n.getNext());
+            n.setNext(node);
         }
-        
-        Node n = getHead();
-        for (int i = 0; i < index-1; i++) {
-            n = n.getNext();
-        }
-        node.setNext(n.getNext());
-        n.setNext(node);
+    }
 
+    public void deleteAt(int index) {
+        if (index == 0) {
+            this.setHead(head.getNext());
+        } else {
+            Node n = getHead();
+            Node toDelete = null;
+            for (int i = 0; i < index-1; i++) {
+                n = n.getNext();
+            }
+            toDelete = n.getNext();
+            n.setNext(toDelete.getNext());
+            toDelete = null;
+            
+
+        }
     }
 
     public void show() {
