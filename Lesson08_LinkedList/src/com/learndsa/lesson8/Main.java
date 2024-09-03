@@ -7,5 +7,6 @@ public class Main {
         list.insert(18);
         list.insert(52);
         list.insert(36);
+        list.show();
     }
 }
