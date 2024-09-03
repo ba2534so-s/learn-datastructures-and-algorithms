@@ -42,7 +42,7 @@ public class LinkedList {
     public void insertAt(int index, int data) {
         Node node = new Node();
         node.setData(data);
-
+        node.setNext(null);
 
 
         Node n = getHead();
