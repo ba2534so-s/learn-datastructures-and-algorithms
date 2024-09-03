@@ -32,7 +32,7 @@ public class LinkedList {
         node.setData(data);
         
         if (getHead() != null) {
-            
+            node.setNext(getHead());
         }
 
         
