@@ -18,6 +18,9 @@ public class LinkedList {
             this.setHead(node);
         } else {
             Node n = this.getHead();
+            while (n.getNext() != null) {
+
+            }
 
         }
     }
