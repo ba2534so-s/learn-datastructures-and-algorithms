@@ -14,10 +14,10 @@ public class LinkedList {
         node.setData(data);
         node.setNext(null);
 
-        if (this.head == null) {
-            this.head = node;
+        if (head == null) {
+            this.setHead(node);
         } else {
-            Node n = new Node();
+            Node n = this.getHead();
 
         }
     }
