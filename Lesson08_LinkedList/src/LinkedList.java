@@ -12,9 +12,12 @@ public class LinkedList {
     public void insert(int data) {
         Node node = new Node();
         node.setData(data);
+        node.setNext(null);
 
         if (this.head == null) {
             this.head = node;
+        } else {
+
         }
     }
 }
