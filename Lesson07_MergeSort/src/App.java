@@ -43,5 +43,9 @@ public class App {
         for (int x = 0; x < leftSize; x++) {
             leftArr[x]  = arr[start + x];
         }
+
+        for (int x = 0; x < rightSize; x++) {
+            
+        }
     }
 }
