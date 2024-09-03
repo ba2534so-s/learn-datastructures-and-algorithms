@@ -38,6 +38,7 @@ public class App {
 
         // Create left and right arrays
         int[] leftArr = new int[leftSize];
+        int[] rightArr = new int[rightSize];
 
     }
 }
