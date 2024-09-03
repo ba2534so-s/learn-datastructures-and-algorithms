@@ -14,7 +14,7 @@ public class LinkedList {
         node.setData(data);
 
         if (this.head == null) {
-
+            this.head = node;
         }
     }
 }
