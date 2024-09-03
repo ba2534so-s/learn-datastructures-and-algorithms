@@ -61,9 +61,12 @@ public class LinkedList {
             this.setHead(head.getNext());
         } else {
             Node n = getHead();
+            Node n1 = null;
             for (int i = 0; i < index-1; i++) {
                 n = n.getNext();
             }
+            
+            
 
         }
     }
