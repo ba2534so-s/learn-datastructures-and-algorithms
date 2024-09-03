@@ -61,11 +61,11 @@ public class LinkedList {
             this.setHead(head.getNext());
         } else {
             Node n = getHead();
-            Node n1 = null;
+            Node toDelete = null;
             for (int i = 0; i < index-1; i++) {
                 n = n.getNext();
             }
-            n1 = n.getNext();
+            toDelete = n.getNext();
             
 
         }
