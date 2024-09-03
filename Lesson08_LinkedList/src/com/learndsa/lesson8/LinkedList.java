@@ -30,6 +30,14 @@ public class LinkedList {
     public void insertAtStart(int data) {
         Node node = new Node();
         node.setData(data);
+        
+        if (getHead() != null) {
+            
+        }
+
+        
+
+        
     }
 
     public void show() {
