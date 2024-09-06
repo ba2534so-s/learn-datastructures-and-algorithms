@@ -13,6 +13,7 @@ public class Stack {
 
     public int pop() {
         top--;
+        int data = stack[top];
         stack[top] = 0;
     }
 
