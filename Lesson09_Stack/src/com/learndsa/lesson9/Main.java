@@ -5,6 +5,7 @@ public class Main {
 
         Stack stack = new Stack();
         stack.push(18);
+        stack.push(5);
         
     }
 }
