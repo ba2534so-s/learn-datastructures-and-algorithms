@@ -8,7 +8,7 @@ public class DynamicStack {
 
     public void push(int data) {
         if (size() == capacity) {
-            
+            expand();
         }
     }
 }
