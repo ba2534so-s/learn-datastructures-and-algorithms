@@ -3,23 +3,25 @@ package com.learndsa.lesson9;
 public class Main {
     public static void main(String[] args) {
 
+        /* 
+        StaticStack staticStack = new StaticStack();
+
+        System.out.println("Empty: " + staticStack.isEmpty());
+
+        staticStack.push(18);
+        staticStack.push(5);
+        staticStack.push(13);
+
+        System.out.println("Deleted: " + staticStack.pop());
+        System.out.println("Peek: " + staticStack.peek());
+        System.out.println("Size: " + staticStack.size());
+
+        System.out.println("Empty: " + staticStack.isEmpty());
+
+        staticStack.show();
+        */
+
         
-        StaticStack stack = new StaticStack();
-
-        System.out.println("Empty: " + stack.isEmpty());
-
-        stack.push(18);
-        stack.push(5);
-        stack.push(13);
-
-        System.out.println("Deleted: " + stack.pop());
-        System.out.println("Peek: " + stack.peek());
-        System.out.println("Size: " + stack.size());
-
-        System.out.println("Empty: " + stack.isEmpty());
-
-
-        stack.show();
         
     }
 }
