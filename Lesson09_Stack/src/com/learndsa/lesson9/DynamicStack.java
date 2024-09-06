@@ -7,6 +7,8 @@ public class DynamicStack {
     int top = 0;
 
     public void push(int data) {
-        
+        if (size() == capacity) {
+            
+        }
     }
 }
