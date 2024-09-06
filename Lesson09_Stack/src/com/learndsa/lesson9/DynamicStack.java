@@ -14,4 +14,8 @@ public class DynamicStack {
             top++;
         }
     }
+
+    private void expand() {
+        
+    }
 }
