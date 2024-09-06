@@ -11,6 +11,7 @@ public class DynamicStack {
             expand();
         } else {
             stack[top] = data;
+            top++;
         }
     }
 }
