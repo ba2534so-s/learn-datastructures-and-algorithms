@@ -15,14 +15,15 @@ public class Stack {
     }
 
     public int pop() {
+        int data = 0;
         if(isEmpty()) {
             System.out.println("Stack is empty!");
         } else {
             top--;
-            int data = stack[top];
+            data = stack[top];
             stack[top] = 0;
-            return data;
         }
+        return data;
     }
 
     public int peek() {
