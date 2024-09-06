@@ -8,9 +8,10 @@ public class Stack {
     public void push(int data) {
         if(top >= 5) {
             System.out.println("Stack is full!");
+        } else {
+            stack[top] = data;
+            top++;
         }
-        stack[top] = data;
-        top++;
     }
 
     public int pop() {
