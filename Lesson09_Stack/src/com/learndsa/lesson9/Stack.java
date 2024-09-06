@@ -11,6 +11,10 @@ public class Stack {
         top++;
     }
 
+    public void pop() {
+        
+    }
+
     public void show() {
         for(int n : stack) {
             System.out.print(n + " ");
