@@ -15,5 +15,6 @@ public class Stack {
         for(int n : stack) {
             System.out.print(n + " ");
         }
+        System.out.println();
     }
 }
