@@ -12,6 +12,7 @@ public class Stack {
     }
 
     public void pop() {
+        top--;
         
     }
 
