@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         
-        Stack stack = new Stack();
+        StaticStack stack = new StaticStack();
 
         System.out.println("Empty: " + stack.isEmpty());
 
