@@ -27,6 +27,10 @@ public class Stack {
         return top;
     }
 
+    public boolean isEmpty() {
+        
+    }
+
     public void show() {
         for(int n : stack) {
             System.out.print(n + " ");
