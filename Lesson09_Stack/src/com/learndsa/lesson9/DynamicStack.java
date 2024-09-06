@@ -25,4 +25,10 @@ public class DynamicStack {
     public int size() {
         return top;
     }
+
+    public void show() {
+        for( int n : stack) {
+            
+        }
+    }
 }
