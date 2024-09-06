@@ -15,6 +15,7 @@ public class Stack {
         top--;
         int data = stack[top];
         stack[top] = 0;
+        return data;
     }
 
     public void show() {
