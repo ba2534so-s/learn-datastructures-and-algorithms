@@ -7,9 +7,7 @@ public class Main {
         stack.push(18);
         stack.push(5);
 
-        for (int data : stack) {
-            
-        }
+        stack.show();
         
     }
 }
