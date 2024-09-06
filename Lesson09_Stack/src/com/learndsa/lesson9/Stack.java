@@ -17,11 +17,12 @@ public class Stack {
     public int pop() {
         if(isEmpty()) {
             System.out.println("Stack is empty!");
+        } else {
+            top--;
+            int data = stack[top];
+            stack[top] = 0;
+            return data;
         }
-        top--;
-        int data = stack[top];
-        stack[top] = 0;
-        return data;
     }
 
     public int peek() {
