@@ -11,7 +11,7 @@ public class Stack {
         top++;
     }
 
-    public void pop() {
+    public int pop() {
         top--;
         stack[top] = 0;
     }
