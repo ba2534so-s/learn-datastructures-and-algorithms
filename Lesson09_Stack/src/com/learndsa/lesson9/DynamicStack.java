@@ -21,4 +21,8 @@ public class DynamicStack {
         System.arraycopy(stack, 0, newStack, 0, size()); 
         stack = newStack;
     }
+
+    public int size() {
+        return top;
+    }
 }
