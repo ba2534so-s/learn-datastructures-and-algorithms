@@ -13,7 +13,7 @@ public class Stack {
 
     public void show() {
         for(int n : stack) {
-            
+            System.out.print(n + " ");
         }
     }
 }
