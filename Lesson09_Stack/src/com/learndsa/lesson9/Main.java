@@ -25,6 +25,14 @@ public class Main {
 
         dStack.push(23);
         dStack.show();
+        dStack.push(12);
+        dStack.show();
+        dStack.push(83);
+        dStack.show();
+        dStack.push(58);
+        dStack.show();
+        dStack.push(29);
+        dStack.show();
         
     }
 }
