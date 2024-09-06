@@ -6,6 +6,7 @@ public class Main {
         Stack stack = new Stack();
         stack.push(18);
         stack.push(5);
+        stack.push(13);
 
         stack.show();
         
