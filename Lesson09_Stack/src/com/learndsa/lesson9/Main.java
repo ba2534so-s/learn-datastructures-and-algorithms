@@ -23,7 +23,8 @@ public class Main {
 
         DynamicStack dStack = new DynamicStack();
 
-        
+        dStack.push(23);
+        dStack.show();
         
     }
 }
