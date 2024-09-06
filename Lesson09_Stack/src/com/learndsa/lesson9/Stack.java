@@ -20,6 +20,7 @@ public class Stack {
 
     public int peek() {
         top--;
+        return stack[top];
     }
 
     public void show() {
