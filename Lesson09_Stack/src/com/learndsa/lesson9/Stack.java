@@ -19,7 +19,7 @@ public class Stack {
     }
 
     public int peek() {
-        
+        top--;
     }
 
     public void show() {
