@@ -21,6 +21,8 @@ public class Main {
         staticStack.show();
         */
 
+        DynamicStack dStack = new DynamicStack();
+
         
         
     }
