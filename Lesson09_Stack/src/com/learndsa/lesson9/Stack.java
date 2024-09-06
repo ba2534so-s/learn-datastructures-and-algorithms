@@ -18,6 +18,10 @@ public class Stack {
         return data;
     }
 
+    public int peek() {
+        
+    }
+
     public void show() {
         for(int n : stack) {
             System.out.print(n + " ");
