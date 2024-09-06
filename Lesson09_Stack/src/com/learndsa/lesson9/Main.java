@@ -9,6 +9,7 @@ public class Main {
         stack.push(13);
 
         System.out.println("Deleted: " + stack.pop());
+        System.out.println("Peek: " + stack.peek());
 
         stack.show();
         

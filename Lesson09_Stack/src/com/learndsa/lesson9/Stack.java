@@ -23,6 +23,10 @@ public class Stack {
         return stack[top];
     }
 
+    public int size() {
+        
+    }
+
     public void show() {
         for(int n : stack) {
             System.out.print(n + " ");
