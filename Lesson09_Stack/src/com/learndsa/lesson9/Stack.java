@@ -6,7 +6,9 @@ public class Stack {
     int top = 0;
 
     public void push(int data) {
+        if(top >= 5) {
 
+        }
         stack[top] = data;
         top++;
     }
