@@ -8,6 +8,8 @@ public class Main {
         stack.push(5);
         stack.push(13);
 
+        System.out.println("Deleted: " + stack.pop());
+
         stack.show();
         
     }
