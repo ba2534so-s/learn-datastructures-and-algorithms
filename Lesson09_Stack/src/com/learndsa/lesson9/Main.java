@@ -10,6 +10,8 @@ public class Main {
 
         System.out.println("Deleted: " + stack.pop());
         System.out.println("Peek: " + stack.peek());
+        System.out.println("Size: " + stack.size());
+
 
         stack.show();
         
