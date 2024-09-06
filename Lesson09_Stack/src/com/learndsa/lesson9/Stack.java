@@ -19,8 +19,8 @@ public class Stack {
     }
 
     public int peek() {
-        top--;
-        return stack[top];
+        ;
+        return stack[top - 1];
     }
 
     public int size() {
