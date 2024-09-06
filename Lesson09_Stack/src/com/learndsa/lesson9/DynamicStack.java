@@ -16,6 +16,6 @@ public class DynamicStack {
     }
 
     private void expand() {
-        
+        int[] newStack = new int[capacity*2]; 
     }
 }
