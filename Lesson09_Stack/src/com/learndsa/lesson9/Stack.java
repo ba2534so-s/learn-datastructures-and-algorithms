@@ -10,4 +10,8 @@ public class Stack {
         stack[top] = data;
         top++;
     }
+
+    public void show() {
+        
+    }
 }
