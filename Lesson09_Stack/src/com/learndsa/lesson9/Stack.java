@@ -13,7 +13,7 @@ public class Stack {
 
     public void pop() {
         top--;
-        
+        stack[top] = 0;
     }
 
     public void show() {
