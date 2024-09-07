@@ -24,6 +24,7 @@ public class DynamicStack {
             top--;
             data = stack[top];
             stack[top] = 0;
+            shrink();
         }
 
         return data;
