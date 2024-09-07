@@ -20,6 +20,8 @@ public class DynamicStack {
 
         if(isEmpty()) {
             System.out.println("Stack is empty!");
+        } else {
+            top--;
         }
 
         return data;
