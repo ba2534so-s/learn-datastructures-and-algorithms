@@ -8,7 +8,7 @@ public class StaticQueue {
     int rear;
 
     public void enQueue(int data) {
-        
+        queue[rear] = data;
     }
 
 }
