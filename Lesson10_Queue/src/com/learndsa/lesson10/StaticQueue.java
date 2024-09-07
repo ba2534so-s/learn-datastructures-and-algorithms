@@ -17,6 +17,7 @@ public class StaticQueue {
         for (int i = 0; i < size; i++) {
             System.out.print(queue[i] + " ");
         }
+        System.out.println();
     }
 
 }
