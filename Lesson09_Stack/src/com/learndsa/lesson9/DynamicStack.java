@@ -31,6 +31,10 @@ public class DynamicStack {
     }
 
     public int peek() {
+        
+        if (isEmpty()) {
+            
+        }
         return stack[top-1];
     }
 
