@@ -33,6 +33,9 @@ public class Main {
         dStack.show();
         dStack.push(29);
         dStack.show();
+
+        dStack.pop();
+        dStack.show();
         
     }
 }
