@@ -7,4 +7,8 @@ public class StaticQueue {
     int front;
     int rear;
 
+    public void enQueue(int data) {
+        
+    }
+
 }
