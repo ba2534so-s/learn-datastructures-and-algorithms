@@ -22,6 +22,7 @@ public class DynamicStack {
             System.out.println("Stack is empty!");
         } else {
             top--;
+            data = stack[top];
         }
 
         return data;
