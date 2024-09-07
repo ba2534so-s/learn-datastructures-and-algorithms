@@ -30,6 +30,10 @@ public class DynamicStack {
         return data;
     }
 
+    public int peek() {
+        
+    }
+
     private void shrink() {
         if (size() <= capacity/4) {
             capacity/=2;
