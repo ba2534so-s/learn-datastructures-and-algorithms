@@ -42,7 +42,7 @@ public class DynamicStack {
     }
 
     public boolean isEmpty() {
-
+        return top <= 0;
     }
 
     public void show() {
