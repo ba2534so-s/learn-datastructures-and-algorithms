@@ -19,7 +19,7 @@ public class DynamicStack {
         int data = 0;
 
         if(isEmpty()) {
-            
+            System.out.println("Stack is empty!");
         }
 
         return data;
