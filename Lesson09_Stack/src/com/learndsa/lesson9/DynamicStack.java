@@ -31,12 +31,7 @@ public class DynamicStack {
     }
 
     public int peek() {
-        
-        if (isEmpty()) {
-            System.out.println("Stack is empty!");
-        } else {
-            return stack[top-1];
-        }
+        return stack[top-1];
     }
 
     private void shrink() {
