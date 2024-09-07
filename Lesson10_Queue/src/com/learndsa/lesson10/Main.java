@@ -5,5 +5,6 @@ public class Main {
         StaticQueue sQueue = new StaticQueue();
         
         sQueue.enQueue(34);
+        sQueue.show();
     }
 }
