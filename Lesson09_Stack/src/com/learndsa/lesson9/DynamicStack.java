@@ -31,7 +31,10 @@ public class DynamicStack {
     }
 
     private void shrink() {
-        
+        if (size() <= capacity/4) {
+            
+        }
+
     }
 
     private void expand() {
