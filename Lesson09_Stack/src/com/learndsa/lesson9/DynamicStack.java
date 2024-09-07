@@ -18,6 +18,10 @@ public class DynamicStack {
     public int pop(){
         int data = 0;
 
+        if(isEmpty()) {
+            
+        }
+
         return data;
     }
 
