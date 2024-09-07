@@ -13,4 +13,8 @@ public class StaticQueue {
         size++;
     }
 
+    public void show() {
+        
+    }
+
 }
