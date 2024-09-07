@@ -23,6 +23,7 @@ public class DynamicStack {
         } else {
             top--;
             data = stack[top];
+            stack[top] = 0;
         }
 
         return data;
