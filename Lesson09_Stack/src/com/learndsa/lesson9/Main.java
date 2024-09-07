@@ -36,6 +36,10 @@ public class Main {
 
         dStack.pop();
         dStack.show();
+        dStack.pop();
+        dStack.show();
+        dStack.pop();
+        dStack.show();
         
     }
 }
