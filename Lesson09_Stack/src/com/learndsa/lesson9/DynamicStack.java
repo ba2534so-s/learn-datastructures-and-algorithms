@@ -15,6 +15,10 @@ public class DynamicStack {
         
     }
 
+    public int pop(){
+        
+    }
+
     private void expand() {
         capacity *= 2;
         int[] newStack = new int[capacity];
