@@ -31,7 +31,7 @@ public class DynamicStack {
     }
 
     public int peek() {
-        
+        return stack[top-1];
     }
 
     private void shrink() {
