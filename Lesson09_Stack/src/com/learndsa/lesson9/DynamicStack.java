@@ -16,7 +16,9 @@ public class DynamicStack {
     }
 
     public int pop(){
-        
+        int data = 0;
+
+        return data;
     }
 
     private void expand() {
