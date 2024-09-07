@@ -30,6 +30,10 @@ public class DynamicStack {
         return data;
     }
 
+    private void shrink() {
+        
+    }
+
     private void expand() {
         capacity *= 2;
         int[] newStack = new int[capacity];
