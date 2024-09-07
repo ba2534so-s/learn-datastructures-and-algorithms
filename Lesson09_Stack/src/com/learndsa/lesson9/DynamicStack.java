@@ -32,7 +32,7 @@ public class DynamicStack {
 
     private void shrink() {
         if (size() <= capacity/4) {
-            
+            capacity/=2;
         }
 
     }
