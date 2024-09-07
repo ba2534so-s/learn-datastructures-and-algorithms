@@ -27,7 +27,6 @@ public class StaticStack {
     }
 
     public int peek() {
-        ;
         return stack[top - 1];
     }
 
