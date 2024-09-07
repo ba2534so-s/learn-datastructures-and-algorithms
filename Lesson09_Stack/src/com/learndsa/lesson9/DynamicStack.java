@@ -33,7 +33,7 @@ public class DynamicStack {
     public int peek() {
         
         if (isEmpty()) {
-            
+            System.out.println("Stack is empty!");
         }
         return stack[top-1];
     }
