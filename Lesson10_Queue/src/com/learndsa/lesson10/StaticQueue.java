@@ -18,10 +18,14 @@ public class StaticQueue {
     }
 
     public int deQueue() {
-        int data = queue[front];
-        queue[front] = 0;
-        size--;
-        front = (front + 1) % 5;
+        int data = 0;
+        if (!isEmpty()) {
+            data = queue[front];
+            queue[front] = 0;
+            size--;
+            front = (front + 1) % 5;
+
+        }
         return data;
     }
 
