@@ -32,5 +32,9 @@ public class StaticQueue {
     public boolean isEmpty() {
         return size <= 0;
     }
+    
+    public boolean isFull() {
+
+    }
 
 }
