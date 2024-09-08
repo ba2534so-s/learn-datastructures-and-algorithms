@@ -9,7 +9,7 @@ public class StaticQueue {
 
     public void enQueue(int data) {
         queue[rear] = data;
-        rear++;
+        rear = (rear + 1) % 5;
         size++;
     }
 
