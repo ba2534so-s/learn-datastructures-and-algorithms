@@ -14,8 +14,7 @@ public class StaticQueue {
     }
 
     public int deQueue() {
-        rear--;
-        int data = queue[rear];
+        int data = queue[front];
         queue[rear] = 0;
         return data;
     }
