@@ -6,6 +6,8 @@ public class Main {
         
         sQueue.enQueue(34);
         sQueue.enQueue(27);
+        sQueue.enQueue(7);
+        sQueue.enQueue(82);
         sQueue.show();
     }
 }
