@@ -24,7 +24,8 @@ public class StaticQueue {
             queue[front] = 0;
             size--;
             front = (front + 1) % 5;
-
+        } else {
+            System.out.println("Queue is empty");
         }
         return data;
     }
