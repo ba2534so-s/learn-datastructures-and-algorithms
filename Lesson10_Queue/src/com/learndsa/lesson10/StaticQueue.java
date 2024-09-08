@@ -14,7 +14,7 @@ public class StaticQueue {
     }
 
     public int deQueue() {
-        
+        rear--;
     }
 
     public void show() {
