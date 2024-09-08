@@ -9,5 +9,8 @@ public class Main {
         sQueue.enQueue(7);
         sQueue.enQueue(82);
         sQueue.show();
+
+        
+        sQueue.show();
     }
 }
