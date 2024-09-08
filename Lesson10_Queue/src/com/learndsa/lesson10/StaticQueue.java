@@ -13,6 +13,10 @@ public class StaticQueue {
         size++;
     }
 
+    public int deQueue() {
+        
+    }
+
     public void show() {
         System.out.print("Elements: ");
         for (int i = 0; i < size; i++) {
