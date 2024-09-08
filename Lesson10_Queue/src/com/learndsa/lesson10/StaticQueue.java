@@ -8,9 +8,11 @@ public class StaticQueue {
     int rear;
 
     public void enQueue(int data) {
-        queue[rear] = data;
-        rear = (rear + 1) % 5;
-        size++;
+        if(!isFull()) {
+            queue[rear] = data;
+            rear = (rear + 1) % 5;
+            size++;
+        } 
     }
 
     public int deQueue() {
