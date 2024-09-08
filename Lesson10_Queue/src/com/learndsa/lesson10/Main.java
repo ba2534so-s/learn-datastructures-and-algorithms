@@ -19,6 +19,7 @@ public class Main {
         System.out.println("Is full: " + sQueue.isFull());
         sQueue.enQueue(42);
         sQueue.enQueue(55);
+        sQueue.enQueue(212);
         System.out.println("Is full: " + sQueue.isFull());
         sQueue.show();
     }
