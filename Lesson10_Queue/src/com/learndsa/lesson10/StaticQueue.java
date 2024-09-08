@@ -12,7 +12,9 @@ public class StaticQueue {
             queue[rear] = data;
             rear = (rear + 1) % 5;
             size++;
-        } 
+        } else {
+            System.out.println("Queue is full");;
+        }
     }
 
     public int deQueue() {
