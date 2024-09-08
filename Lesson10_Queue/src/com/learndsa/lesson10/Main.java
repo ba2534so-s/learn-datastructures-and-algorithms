@@ -13,5 +13,9 @@ public class Main {
 
         sQueue.deQueue();
         sQueue.show();
+
+        sQueue.enQueue(42);
+        sQueue.enQueue(55);
+        sQueue.show();
     }
 }
