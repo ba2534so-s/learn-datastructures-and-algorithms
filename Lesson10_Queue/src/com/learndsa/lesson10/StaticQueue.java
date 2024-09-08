@@ -29,4 +29,8 @@ public class StaticQueue {
         System.out.println();
     }
 
+    public boolean isEmpty() {
+        return size <= 0;
+    }
+
 }
