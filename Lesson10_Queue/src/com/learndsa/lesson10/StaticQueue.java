@@ -34,7 +34,7 @@ public class StaticQueue {
     }
     
     public boolean isFull() {
-
+        return size >= 5;
     }
 
 }
