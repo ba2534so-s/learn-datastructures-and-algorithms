@@ -17,7 +17,7 @@ public class StaticQueue {
         int data = queue[front];
         queue[front] = 0;
         size--;
-        front++;
+        front = (front + 1) % 5;
         return data;
     }
 
