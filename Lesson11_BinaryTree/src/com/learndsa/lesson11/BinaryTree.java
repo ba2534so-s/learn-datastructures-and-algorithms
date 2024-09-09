@@ -31,4 +31,8 @@ public class BinaryTree {
 
         return root;
    }
+
+   public void inOrder() {
+    
+   }
 }
