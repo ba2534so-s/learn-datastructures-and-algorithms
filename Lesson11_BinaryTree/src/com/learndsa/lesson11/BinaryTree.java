@@ -46,6 +46,6 @@ public class BinaryTree {
    }
 
    public void preOrder() {
-        
+        preOrderRec(root);
    }
 }
