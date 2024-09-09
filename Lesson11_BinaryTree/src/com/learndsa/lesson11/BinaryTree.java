@@ -33,7 +33,7 @@ public class BinaryTree {
    }
 
    public void inOrder() {
-
+        inOrderRec(root);
    }
 
    public void inOrderRec(Node root) {
