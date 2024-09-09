@@ -51,6 +51,8 @@ public class BinaryTree {
    }
 
    public void preOrderRec(Node node) {
-    
+        if (root != null) {
+            System.out.print(root.data + " ");
+        }
    }
 }
