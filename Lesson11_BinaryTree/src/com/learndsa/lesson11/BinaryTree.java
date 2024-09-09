@@ -17,14 +17,10 @@ public class BinaryTree {
 
 
     public void insert(int data) {
-//        if (root == null) {
-//            root = new Node(data);
-//        } else {
-//            
-//        }
+        root = insertRec(root, data);
    }
 
-   public insertRec(Node root, int data) {
-    
+   public Node insertRec(Node root, int data) {
+
    }
 }
