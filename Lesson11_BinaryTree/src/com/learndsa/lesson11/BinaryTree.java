@@ -25,6 +25,8 @@ public class BinaryTree {
             root = new Node(data);
         } else if(data < root.data) {
             root.left = insertRec(root.left, data);
+        } else if (data > root.data) {
+            
         }
 
    }
