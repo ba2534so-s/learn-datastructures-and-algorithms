@@ -23,6 +23,8 @@ public class BinaryTree {
    public Node insertRec(Node root, int data) {
         if (root == null) {
             root = new Node(data);
+        } else if(data < root.data) {
+            
         }
 
    }
