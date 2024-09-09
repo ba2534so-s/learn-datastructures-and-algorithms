@@ -17,7 +17,9 @@ public class BinaryTree {
 
 
     public void insert(int data) {
-
+        if (root == null) {
+            
+        }
     }
 
 }
