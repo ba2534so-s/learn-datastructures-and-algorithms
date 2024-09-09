@@ -29,5 +29,6 @@ public class BinaryTree {
             root.right = insertRec(root.right, data);
         }
 
+        return root;
    }
 }
