@@ -9,5 +9,7 @@ public class Main {
         tree.insert(15);
         tree.insert(2);
         tree.insert(5);
+
+        tree.inOrder();
     }
 }

@@ -34,6 +34,7 @@ public class BinaryTree {
 
    public void inOrder() {
         inOrderRec(root);
+        System.out.println();
    }
 
    public void inOrderRec(Node root) {
