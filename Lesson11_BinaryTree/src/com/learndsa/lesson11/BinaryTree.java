@@ -22,6 +22,9 @@ public class BinaryTree {
 //        } else {
 //            
 //        }
-//   }
+   }
 
+   public insertRec(Node root, int data) {
+    
+   }
 }
