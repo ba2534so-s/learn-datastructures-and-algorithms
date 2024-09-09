@@ -44,4 +44,8 @@ public class BinaryTree {
             inOrderRec(root.right);
         }
    }
+
+   public void preOrder() {
+        
+   }
 }
