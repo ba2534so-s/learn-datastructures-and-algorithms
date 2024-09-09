@@ -39,7 +39,7 @@ public class BinaryTree {
    public void inOrderRec(Node root) {
         if (root != null) {
             inOrderRec(root.left);
-            
+            System.out.print(root.data + " ");
         }
    }
 }
