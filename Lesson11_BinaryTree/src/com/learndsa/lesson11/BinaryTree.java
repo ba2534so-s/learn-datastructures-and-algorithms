@@ -47,5 +47,6 @@ public class BinaryTree {
 
    public void preOrder() {
         preOrderRec(root);
+        System.out.println();
    }
 }
