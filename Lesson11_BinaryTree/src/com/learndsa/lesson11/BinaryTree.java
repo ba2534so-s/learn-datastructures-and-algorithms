@@ -49,4 +49,8 @@ public class BinaryTree {
         preOrderRec(root);
         System.out.println();
    }
+
+   public void preOrderRec(Node node) {
+    
+   }
 }
