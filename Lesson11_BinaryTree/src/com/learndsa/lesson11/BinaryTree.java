@@ -13,9 +13,11 @@ class Node {
 
 public class BinaryTree {
 
+    Node root;
+
 
     public void insert(int data) {
-        
+
     }
 
 }
