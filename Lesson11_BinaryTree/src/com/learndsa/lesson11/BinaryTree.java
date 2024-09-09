@@ -54,6 +54,7 @@ public class BinaryTree {
         if (root != null) {
             System.out.print(root.data + " ");
             inOrderRec(node.left);
+            inOrderRec(node.right);
         }
    }
 }
