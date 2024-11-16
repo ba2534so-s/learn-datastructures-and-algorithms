@@ -23,6 +23,7 @@ public class Fibonacci {
 	}
 	
 	public void fibonacciRecursive() {
+		// Initialize the first two Fibonacci numbers and start the recursion
 		int firstFib = 0;
 		int secondFib = 1;
 		System.out.println(firstFib);
@@ -33,12 +34,14 @@ public class Fibonacci {
 	}
 	
 	private void fibonacciRecursive(int prev2, int prev1, int counter) {
+		// Base case: Stop when counter exceeds 20
 		if (counter > 20) {
 			return;
 		}
-		
+		// Compute the next Fibonacci number
 		int nextFib = prev2 + prev1;
 		System.out.println(nextFib);
+		// Recursive call with updated parameters
 		fibonacciRecursive(prev1, nextFib, counter+1);
 	}
 	
