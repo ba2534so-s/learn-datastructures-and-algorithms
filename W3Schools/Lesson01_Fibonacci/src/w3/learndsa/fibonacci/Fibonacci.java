@@ -33,7 +33,9 @@ public class Fibonacci {
 	}
 	
 	private void fibonacciRecursive(prev2, prev1, counter) {
-		
+		if (counter > 20) {
+			return;
+		}
 	}
 	
 	
