@@ -8,7 +8,7 @@ public class Fibonacci {
 	// 2. Do point a and b 18 times to get the 20th Fibonacci
 	
 	public void fibonacciForLoop() {
-		
+		int prev2 = 0;
 		
 	}
 	
