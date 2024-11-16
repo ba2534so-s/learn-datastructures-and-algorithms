@@ -23,8 +23,11 @@ public class Fibonacci {
 	}
 	
 	public void fibonacciRecursive() {
-		int prev2 = 0;
-		int prev1 = 1;
+		int firstFib = 0;
+		int secondFib = 1;
+		System.out.println(firstFib);
+		System.out.println(secondFib);
+		
 	}
 	
 	
