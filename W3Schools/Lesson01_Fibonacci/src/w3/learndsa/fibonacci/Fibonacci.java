@@ -24,6 +24,7 @@ public class Fibonacci {
 	
 	public void fibonacciRecursive() {
 		int prev2 = 0;
+		int prev1 = 1;
 	}
 	
 	
