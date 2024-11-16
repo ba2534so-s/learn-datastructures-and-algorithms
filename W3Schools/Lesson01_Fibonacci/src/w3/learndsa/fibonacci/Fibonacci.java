@@ -17,7 +17,8 @@ public class Fibonacci {
 		{
 			int nextFibo = prev2 + prev1;
 			System.out.println(nextFibo);
-			
+			prev2 = prev1;
+			prev1 = nextFibo;
 		}
 	}
 	
