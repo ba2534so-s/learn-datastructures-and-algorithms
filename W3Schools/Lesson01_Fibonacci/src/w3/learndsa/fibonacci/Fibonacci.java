@@ -10,8 +10,10 @@ public class Fibonacci {
 	public void fibonacciForLoop() {
 		int prev2 = 0;
 		int prev1 = 1;
+		System.out.println(prev2);
+		System.out.println(prev1);
 		
-		}
+		
 	}
 	
 	
