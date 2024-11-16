@@ -9,7 +9,7 @@ public class Find {
 			if (intArray[i] < lowest) 
 				lowest = intArray[i];
 		}
-		
+		return lowest;
 	}
 
 }
