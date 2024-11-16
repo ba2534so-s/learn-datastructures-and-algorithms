@@ -45,6 +45,10 @@ public class Fibonacci {
 		fibonacciRecursive(prev1, nextFib, counter+1);
 	}
 	
+	public void findNthFibonacci(int n) {
+		
+	}
+	
 	
 
 }
