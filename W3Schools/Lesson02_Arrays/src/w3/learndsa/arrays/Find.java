@@ -6,7 +6,8 @@ public class Find {
 		int lowest = intArray[0];
 		
 		for(int i : intArray) {
-			
+			if (intArray[i] < lowest) 
+				lowest = intArray[i];
 		}
 		
 	}
