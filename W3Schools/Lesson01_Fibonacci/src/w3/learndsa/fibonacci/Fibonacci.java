@@ -46,10 +46,13 @@ public class Fibonacci {
 	}
 	
 	public int findNthFibonacci(int n) {
-		if (n+1 <= 2) {
+		// Base case: If n is 0 or 1, return n. 
+	    // The first two Fibonacci numbers are defined as F(0) = 0 and F(1) = 1.
+		if (n <= 1) {
 			return n;
 		}
-		
+		// Recursive case: Calculate the Fibonacci number by summing the two preceding numbers.
+	    // F(n) = F(n-1) + F(n-2)
 		return findNthFibonacci(n-1) + findNthFibonacci(n-2);
 	}
 	
