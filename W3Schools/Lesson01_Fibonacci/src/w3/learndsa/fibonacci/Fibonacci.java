@@ -16,6 +16,7 @@ public class Fibonacci {
 		for (int i = 0; i < 18; i++)
 		{
 			int nextFibo = prev2 + prev1;
+			System.out.println(nextFibo);
 			
 		}
 	}
