@@ -12,6 +12,8 @@ public class Sorter {
 					intArray[j+1] = temp;
 				}
 			}
+			if (!swapped)
+				break;
 		}
 	}
 
