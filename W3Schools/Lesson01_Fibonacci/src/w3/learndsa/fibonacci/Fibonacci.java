@@ -9,7 +9,9 @@ public class Fibonacci {
 	
 	public void fibonacciForLoop() {
 		int prev2 = 0;
+		int prev1 = 1;
 		
+		}
 	}
 	
 	
