@@ -13,7 +13,10 @@ public class Fibonacci {
 		System.out.println(prev2);
 		System.out.println(prev1);
 		
-		
+		for (int i = 0; i < 18; i++)
+		{
+			
+		}
 	}
 	
 	
