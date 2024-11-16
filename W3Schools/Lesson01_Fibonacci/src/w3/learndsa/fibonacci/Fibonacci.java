@@ -32,13 +32,14 @@ public class Fibonacci {
 		
 	}
 	
-	private void fibonacciRecursive(prev2, prev1, counter) {
+	private void fibonacciRecursive(int prev2, int prev1, int counter) {
 		if (counter > 20) {
 			return;
 		}
 		
 		int nextFib = prev2 + prev1;
 		System.out.println(nextFib);
+		fibonacciRecursive(prev1, nextFib, counter+1);
 	}
 	
 	
