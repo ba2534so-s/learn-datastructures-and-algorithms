@@ -10,6 +10,7 @@ public class Sorter {
 					int temp = intArray[j];
 					intArray[j] = intArray[j+1];
 					intArray[j+1] = temp;
+					swapped = true;
 				}
 			}
 			if (!swapped)
