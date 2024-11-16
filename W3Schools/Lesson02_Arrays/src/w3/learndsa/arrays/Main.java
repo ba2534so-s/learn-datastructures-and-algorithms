@@ -12,11 +12,13 @@ public class Main {
 		}
 		System.out.println();
 		
-		int[] sortedtArray = new int[intArray.length];	
+		int[] sortedArray = new int[intArray.length];
+		Sorter sort = new Sorter();
+		sortedArray = sort.bubbleSort(intArray);
 		
 		
 		System.out.print("Sorted Array: ");
-		for(int i : intArray) {
+		for(int i : sortedArray) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
