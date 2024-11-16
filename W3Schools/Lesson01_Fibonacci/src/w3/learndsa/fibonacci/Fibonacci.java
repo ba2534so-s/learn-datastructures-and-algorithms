@@ -28,6 +28,8 @@ public class Fibonacci {
 		System.out.println(firstFib);
 		System.out.println(secondFib);
 		
+		fibonacciRecursive(firstFib, secondFib, 3);
+		
 	}
 	
 	
