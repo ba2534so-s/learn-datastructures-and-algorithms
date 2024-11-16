@@ -15,6 +15,7 @@ public class Sorter {
 			if (!swapped)
 				break;
 		}
+		return intArray;
 	}
 
 }
