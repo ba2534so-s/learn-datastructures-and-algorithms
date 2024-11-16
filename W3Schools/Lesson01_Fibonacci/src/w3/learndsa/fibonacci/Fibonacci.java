@@ -46,7 +46,9 @@ public class Fibonacci {
 	}
 	
 	public void findNthFibonacci(int n) {
-		
+		if (n+1 <= 2) {
+			return n;
+		}
 	}
 	
 	
