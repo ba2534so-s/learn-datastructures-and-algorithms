@@ -36,6 +36,8 @@ public class Fibonacci {
 		if (counter > 20) {
 			return;
 		}
+		
+		int nextFib = prev2 + prev1;
 	}
 	
 	
