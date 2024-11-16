@@ -38,6 +38,7 @@ public class Fibonacci {
 		}
 		
 		int nextFib = prev2 + prev1;
+		System.out.println(nextFib);
 	}
 	
 	
