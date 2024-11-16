@@ -12,7 +12,14 @@ public class Main {
 		}
 		System.out.println();
 		
-		int[] sortedtArray = new int[intArray.length];		
+		int[] sortedtArray = new int[intArray.length];	
+		
+		
+		System.out.print("Sorted Array: ");
+		for(int i : intArray) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
 
 	}
 
