@@ -36,11 +36,12 @@ public class Sorter {
 	
 	public int[] insertionSort(int[] intArray) {
 		for (int i = 0; i < intArray.length; i++) {
+			int insertIndex = i;
 			int currentValue = intArray[i];
 			int j = i - 1;
 			
 			while(j >= 0 && intArray[j] > currentValue) {
-				
+				intArray[j+1] = intArray[j];
 			}
 		}
 	}
