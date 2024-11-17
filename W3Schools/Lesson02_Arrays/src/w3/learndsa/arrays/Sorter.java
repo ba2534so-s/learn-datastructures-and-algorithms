@@ -44,6 +44,7 @@ public class Sorter {
 			while(j >= 0 && intArray[j] > currentValue) {
 				intArray[j+1] = intArray[j];
 				insertIndex = j;
+				j--;
 			}
 		}
 	}
