@@ -31,6 +31,7 @@ public class Sorter {
 			intArray[i] = intArray[lowestIndex];
 			intArray[lowestIndex] = temp;
 		}
+		return intArray;
 	}
 
 }
