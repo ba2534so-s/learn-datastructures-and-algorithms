@@ -18,5 +18,9 @@ public class Sorter {
 		}
 		return intArray;
 	}
+	
+	public int[] selectionSort(int[] intArray) {
+		
+	}
 
 }
