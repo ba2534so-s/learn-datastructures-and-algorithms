@@ -24,7 +24,7 @@ public class Sorter {
 			int lowestIndex= i;
 			for (int j = i+1; j < intArray.length; j++) {
 				if(intArray[j] < intArray[lowestIndex]) {
-					
+					lowestIndex = j;
 				}
 			}
 		}
