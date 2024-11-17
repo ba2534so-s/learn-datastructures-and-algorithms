@@ -46,6 +46,7 @@ public class Sorter {
 				insertIndex = j;
 				j--;
 			}
+			intArray[insertIndex] = currentValue;
 		}
 	}
 
