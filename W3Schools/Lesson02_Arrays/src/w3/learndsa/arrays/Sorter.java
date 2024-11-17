@@ -48,6 +48,7 @@ public class Sorter {
 			}
 			intArray[insertIndex] = currentValue;
 		}
+		return intArray;
 	}
 
 }
