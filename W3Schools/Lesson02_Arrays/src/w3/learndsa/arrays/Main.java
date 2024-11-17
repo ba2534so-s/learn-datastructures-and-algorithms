@@ -14,7 +14,8 @@ public class Main {
 		
 		int[] sortedArray = new int[intArray.length];
 		Sorter sort = new Sorter();
-		sortedArray = sort.bubbleSort(intArray);
+		//sortedArray = sort.bubbleSort(intArray);
+		sortedArray = sort.selectionSort(intArray);
 		
 		
 		System.out.print("Sorted Array: ");
