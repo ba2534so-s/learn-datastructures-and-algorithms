@@ -22,6 +22,9 @@ public class Sorter {
 	public int[] selectionSort(int[] intArray) {
 		for(int i = 0; i < intArray.length-1; i++) {
 			int lowestIndex= i;
+			for (int j = i+1; j < intArray-length; j++) {
+				
+			}
 		}
 	}
 
