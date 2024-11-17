@@ -37,6 +37,10 @@ public class Sorter {
 	public int[] insertionSort(int[] intArray) {
 		for (int i = 0; i < intArray.length; i++) {
 			int currentValue = intArray[i];
+			
+			while(j >= 0 && intArray[j] > currentValue) {
+				
+			}
 		}
 	}
 
