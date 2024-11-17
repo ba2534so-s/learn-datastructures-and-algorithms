@@ -34,7 +34,7 @@ public class Sorter {
 		return intArray;
 	}
 	
-	// Understand step by step
+	// Understand step by step 
 	public int[] insertionSort(int[] intArray) {
 		for (int i = 0; i < intArray.length; i++) {
 			int insertIndex = i;
