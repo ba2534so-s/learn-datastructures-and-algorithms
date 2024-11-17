@@ -16,6 +16,7 @@ public class Main {
 		Sorter sort = new Sorter();
 		//sortedArray = sort.bubbleSort(intArray);
 		sortedArray = sort.selectionSort(intArray);
+		sortedArray = sort.insertionSort(intArray);
 		
 		
 		System.out.print("Sorted Array: ");
