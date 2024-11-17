@@ -18,5 +18,20 @@ public class Sorter {
 		}
 		return intArray;
 	}
+	
+	public int[] selectionSort(int[] intArray) {
+		for(int i = 0; i < intArray.length-1; i++) {
+			int lowestIndex= i;
+			for (int j = i+1; j < intArray.length; j++) {
+				if(intArray[j] < intArray[lowestIndex]) {
+					lowestIndex = j;
+				}
+			}
+			int temp = intArray[i];
+			intArray[i] = intArray[lowestIndex];
+			intArray[lowestIndex] = temp;
+		}
+		return intArray;
+	}
 
 }
