@@ -50,5 +50,9 @@ public class Sorter {
 		}
 		return intArray;
 	}
+	
+	public int[] quickSort(int[] intArray) {
+		
+	}
 
 }
