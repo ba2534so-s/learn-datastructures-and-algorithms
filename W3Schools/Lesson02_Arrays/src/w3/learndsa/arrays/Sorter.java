@@ -53,6 +53,7 @@ public class Sorter {
 	
 	public int[] quickSort(int[] intArray) {
 		
+		return intArray;
 	}
 
 }
